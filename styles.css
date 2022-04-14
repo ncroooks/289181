@@ -1,0 +1,40 @@
+ h2 {
+    color: slategray;
+    font-family: sans-serif     
+    font-size: 86px;    
+    }
+
+div {
+outline: 1px solid black;
+    }
+#container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin: auto;
+max-width: 1000px;
+}
+#blue {
+background-color: lightgray;
+grid-column:1/5;
+height: 400px;
+}
+#red {
+background-color: darkgoldenrod;
+height: 250px;
+}
+#green {
+background-color:darkcyan;
+height: 250px;
+}
+#yellow {
+background-color:darkgreen;
+height: 250px;
+}
+#purple {
+background-color:lightcoral;
+height: 250px;
+}   
+
+<font face="Arial" size="20px" color="#FF7A59">bedhaed.</font>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png" alt="one">
