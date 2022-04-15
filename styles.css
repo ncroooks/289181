@@ -30,6 +30,66 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
 
+.left {
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%; 
+    width: 40%
+}
+
+.right {
+    display: block;
+    margin-left: 60%;
+    margin-right: 0%;
+    width: 40%
+}
+
+#paints {
+   width: 500px
+   height: 400px
+   margin-left: auto;
+   margin-right:auto;  
+}
+
+#faces {
+    width: 500px
+   height: 400px
+   margin-left: auto;
+   margin-right:auto;     
+}
+
+#towers {
+    width: 500px
+   height: 400px
+   margin-left: auto;
+   margin-right:auto;  
+}
+#copyright {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+    max-width: 800px
+}
+
+#blue {
+    background-color: aqua;
+    grid-column: 1/4;
+    height: 200px;
+}
+
+#red {
+    background-color: crimson;
+    height: 600px
+}
