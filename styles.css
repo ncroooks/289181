@@ -26,6 +26,13 @@
    margin-right:auto;
 }
 
+#paintlogo {
+   width: 100px;
+   height: 100px;
+   margin-left: auto;
+   margin-right:auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -63,7 +70,7 @@
 
 #towers {
     width: 500px
-   height: 400px
+   height: 500px
    margin-left: auto;
    margin-right:auto;  
 }
@@ -77,19 +84,38 @@
 }
 
 #container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin:auto;
-    max-width: 800px
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin: auto;
+max-width: 1000px;
 }
 
 #blue {
-    background-color: aqua;
-    grid-column: 1/4;
-    height: 200px;
+background-color: lightgray;
+height: 500px;
+width: 500px;    
 }
 
 #red {
-    background-color: crimson;
-    height: 600px
+background-color: darkgoldenrod;
+height: 500px;
+width: 500px;
 }
+
+#green {
+background-color:darkcyan;
+height: 500px;
+width: 500px;    
+}
+
+#yellow {
+background-color:darkgreen;
+height: 100px;
+width: 100px;    
+}
+
+#purple {
+background-color:lightcoral;
+height: 100px;
+width: 100px;    
+}   
